@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Ng - Portfolio</title>
+
+    <link rel="stylesheet" href="stylesheet.css">
+
+</head>
+<body>
+    <header>
+        <div class="header">
+            
+            <div> 
+                <a href="/" class="nav_item">
+                    <strong>DANIEL</strong>
+                </a>
+            </div>
+
+            <nav>
+                <!-- Flexbox nav -->
+                <div class="header_nav">
+                    
+
+                    <!-- <a href="#projects_section" class="nav_item">PROJECTS</a> -->
+                    <a href="#games_section" class="nav_item">GAMES</a>
+                    <a href="#about_section" class="nav_item">ABOUT</a>
+                    <a href="#contact_section" class="nav_item">CONTACT</a>
+
+                    
+                </div>
+            </nav>
+
+        </div>
+        
+    </header>
+
+    <!-- Brief Introduction -->
+    <div class="main_introduction">
+            
+        <p class="center_paragraph" style="font-size: 25px; font-family: 'Times New Roman', Times, serif;">
+            <em>
+                GAME DEV // ...UH I THINK THAT'S IT
+            </em>
+        </p>
+        
+        <h1>
+            INDEPENDENT DEVELOPER PORTFOLIO
+        </h1>
+        
+        <p class="center_paragraph" style="font-size: 20px; padding: 15px;">
+            
+            For as long as I can remember, I've been a maker of things.
+            Inspired by the creativity that exists in spectacular everyday people,
+            I see the world through the lens of a scientist, artist, and innovator.
+            
+        </p>
+    </div>
+
+    <div class="spacer layer1"></div>
+
+
+    <main>
+
+        <!-- Projects -->
+        
+        <!--
+        
+        <div class="main_projects" id="projects_section">
+            <h1>Personal Projects</h1>
+            <p>Here's where I would put my personal projects!</p>
+            <br>
+            <p>...IF I HAD ANY.</p>
+        </div>
+        
+        -->
+
+        <!-- Games -->
+        <div class="main_games" id="games_section">
+            <div class="games_text">
+                <div>
+                    <h1 class="section_header_font">
+                        GAME DEVELOPMENT SHOWCASE
+                    </h1>
+                </div>
+                <div class="paragraph_med">
+                    <p>
+                        Ever since I booted up Roblox for the first time back in third grade, I've wanted to make games.
+                        Now, I do.
+                    </p>
+                    
+                    <p>
+                        I program mainly with C# in the Unity engine, create and animate sprites with Aseprite, and compose music 
+                        with the Reaper DAW and various plugins. This is just a showcase of my best works, you can find every 
+                        game I've built on my Itch.io page.
+                    </p>    
+
+                    <p>
+                        Game development is especially challenging as a solo developer - AKA the game designer, programmer, art director, 
+                        music producer, and marketer, all at once.
+                        Though I'm making progress, I am nowhere near the height of my potential, and
+                        I fully intend to build many more games for years to come.
+                    </p>
+                    
+                </div>    
+            </div>
+            
+
+            <div class="games_showcase slider_container">
+                <div class="game_article_container slides" >
+
+                    <article class="slide" class="game_article" class="slider_slide">
+
+                        <img class="game_image" src="Images/marianne.png">
+
+                        <section class="game_article_title">
+                            <h1>
+                                MARIANNE
+                            </h1>
+                            <h2>
+                                <em>
+                                    DON'T GET TOO LOST DOWN THERE
+                                </em>
+                                
+                            </h2>
+                        </section>
+
+                        <section class="game_article_body">
+                            <p>
+                                A short exploration and light horror game where, a mother whale, you must explore the caves 
+                                and deep waters to find your missing calf.
+                                For this game I took a more poetic, artistic perspective on game development, focusing on
+                                atmosphere and symbolism. 
+                                into game development to tell a story about diving into the depths. 
+                                Built within 7 days for Brackeys Game Jam 2023.2.
+                            </p>
+                        </section>
+
+                    </article>
+
+                    <article class="slide" class="game_article" class="slider_slide">
+
+                        <img class="game_image" src="Images/burnup!.jpg">
+
+                        <section class="game_article_title">
+                            <h1>
+                                BURNUP!
+                            </h1>
+                            <h2>
+                                <em>
+                                    ONE BUTTON ASTEROID DEFENSE
+                                </em>
+                            </h2>
+                        </section>
+
+                        <section class="game_article_body">
+                            <p>
+                                A quick and intense astroid defense game designed to only need the spacebar to play. 
+                                Built within 48 hours for Mini Jam 162: Heat, with the creative limitation of only one button performing two actions. 
+                                Ranked top 5 out of 139 total entries. This was my first 48-hour game jam so I didn't expect the high placement, but a win is a win.
+                            </p>
+                        </section>
+
+                    </article>   
+                    
+                    <article class="slide game_article">
+
+                        <img class="game_image" src="Images/spitfire1.png" style="object-fit: contain;">
+
+                        <section class="game_article_title">
+                            <h1>
+                                SPITFIRE
+                            </h1>
+                            <h2>
+                                <em>
+                                    A BIPLANE SHOOTER FRENZY
+                                </em>
+                            </h2>
+                        </section>
+
+                        <section class="game_article_body">
+                            <p>
+                                A classic shoot-em-up action game with dodge rolls, unique enemies, and bossfights. 
+                                Built within 14 days under the creative limitation of a 64x64 resolution screen. 
+                                This was my first go at a true independent creation without needing to follow a tutorial, and I think 
+                                it went very well as far as first times go.
+                            </p>
+                        </section>
+
+                    </article>
+
+                </div>
+                
+                <button class="prev" onclick="prevSlide()"> < </button>
+                <button class="next" onclick="nextSlide()"> > </button>
+
+            </div>
+
+        </div>
+
+        <!-- In-Depth About Me --> 
+        <div class="main_about" id="about_section">
+
+            <article class="about_article">
+
+                <img class="about_image" src="Images/meOnDock2.png" />
+                
+                <section class="about_section">
+                    <h1 class="section_header_font">
+                        ABOUT
+                    </h1>
+                    <p class="paragraph_med">
+                        I'm currently a CS major at Purdue University. 
+                        So far, I've programmed some small arcade style videogames. 
+                        When I'm not working, I like to write poems, hit the gym, 
+                        play games (OG reinhardt main) and go out with friends.
+                    </p>
+                    <p class="paragraph_med">
+                        I found my love for creating early on, through building with legos and writing short stories. 
+                        After the pandemic left me feeling lost and unsure, finding avenues to express myself and figure out 
+                        my identity helped me to heal. As a result, you will find touches of my personality, values, 
+                        and humor in everything I create. For whatever reason brought you here, thanks for stopping by!
+                    </p>    
+                </section>
+                
+            </article>
+            
+            <article class="about_article" style="flex-wrap: wrap-reverse;">
+                
+                <section class="about_section">
+                    <h1 class="section_header_font">
+                        EXPERIENCE
+                    </h1>
+                    <p class="paragraph_med">
+                        I have a year of experience in the Unity engine and C#, and have published several independent titles to my Itch.io page, mostly
+                        as part of timed game jam events, including a top 5 ranking out of 139 total entries.
+                    </p>    
+                </section>
+
+                <img class="about_image" src="Images/unityWorkflow.png" />
+                
+            </article>
+           
+         </div>
+
+    </main>
+
+    <div class="spacer layer2"></div>
+
+    <footer id="contact_section">
+        <h1>GET IN TOUCH</h1>
+
+        <!-- Links & Contact -->
+        <div>
+            <a>Github
+                
+            </a>
+            <a>Itch.io
+
+            </a>
+            <a>School Email
+
+            </a>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
