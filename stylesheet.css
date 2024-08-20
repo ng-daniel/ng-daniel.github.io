@@ -153,7 +153,6 @@ main{
     flex: 3;
     min-width: 300px;
 
-    background-color: blue;
     border-radius: 1rem;
 }
 .about_image{
@@ -164,6 +163,15 @@ main{
     
     flex:3;
     border-radius: 1rem;
+}
+.about_toolStack{
+    display:grid
+    
+}
+.about_toolStack_image{
+    width:200px;
+    height:200px;
+    object-fit:cover;
 }
 /* THE ACTUAL EFFECTIVE SLIDER, NOT SOME CSS JANK HACK */
 .slider_container{
@@ -218,7 +226,6 @@ main{
     padding-left: 50px;
     padding-right: 50px;
     flex:2;
-    background-color: blue;
     border-radius: 1rem;
 }
 .games_showcase{
@@ -259,7 +266,7 @@ footer{
     gap:10px;
 }
 .footer_links img{
-    width:50px;
-    height:50px;
+    width:30px;
+    height:30px;
 }
 
