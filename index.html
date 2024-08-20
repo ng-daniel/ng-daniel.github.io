@@ -3,285 +3,141 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daniel Ng - Portfolio</title>
-
-    <link rel="stylesheet" href="stylesheet.css">
-
+    <title>Daniel Ng - Home</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <div class="header">
+    <div id="top"></div>
+    
+    <div class="root_margins"></div>
+    <div class="container">
+        
+        <main class="main_content">
+            <header class="header_box">
+                <div id="about_header">
+                    <h1 class="title">Daniel Ng</h1>
+                    <p class="heading">
+                        COMPUTER SCIENCE @ PURDUE UNIVERSITY
+                    </p>
+                    <p class="description">
+                        Welcome to my page! I’m a student and developer based in Long Island, New York. 
+                        I code games in Unity, and I'm teaching myself web design and development. I also
+                        look forwards to learning data science and analytics as part of the Purdue DataMine 
+                        learning community.
+                    </p>
+                </div>
+                <nav class="nav_bar">
+                    <div class="nav_list coolLink">
+                        <a href="#top"><span>HOME</span></a>
+                        <a href="#tools"><span>TOOLS</span></a>
+                        <a href="#projects"><span>PROJECTS</span></a>
+                        <a href="#about"><span>ABOUT</span></a>
+                        <a href="#contact"><span>CONTACT</span></a>
+                    </div>
+                </nav>                
+            </header>
             
-            <div> 
-                <a href="/" class="header_logo nav_item">
-                    DANIEL NG
-                </a>
+            <div id="tools" class="content_box">
+                <div class="content_box_header">
+                    <h1 class="heading">TOOLS</h1>
+                    <p class="subheading">Technologies I work with.</p>    
+                </div>
+                <div class="content_box_content">
+                    <article class="coolLink">
+                        <img class="tools_icon" src="Icons/html5.png"/>
+                        <img class="tools_icon" src="Icons/css3.png"/>
+                        <img class="tools_icon" src="Icons/unity.png"/>
+                        <img class="tools_icon" src="Icons/csharp.png"/>
+                    </article>
+                </div>
+            </div>
+            
+            <div id="projects" class="content_box">
+                <div class="content_box_header">
+                    <h1 class="heading">PROJECTS</h1>
+                    <p class="subheading">Coding projects and videogames.</p>    
+                </div>
+                <div class="content_box_content">
+                    <article class="projects_article">
+                        <p class="heading">BURNUP!</p>
+                        <a href="https://ingdani.itch.io/burnup" target="_blank" class="subheading coolLink">https://ingdani.itch.io/burnup</a>
+                        <p>
+                            Ranked top 5 out of 139 entries in Mini Jam 162: Heat. 
+                            A one-button arcade asteroid defense game
+                            built within 48 hours in the Unity 2D engine and C# language.
+                            Implements a dynamic time-based difficulty scaling system.
+                        </p>
+                        <a href="https://itch.io/jam/mini-jam-162-heat/rate/2817229" target="_blank" class="smallscript">See Itch.io comments</a>
+                    </article>
+                    <article class="projects_article">
+                        <p class="heading">Marianne</p>
+                        <a href="https://ingdani.itch.io/marianne" target="_blank" class="subheading coolLink">https://ingdani.itch.io/marianne</a>
+                        <p>
+                            Short exploration and light horror game. 
+                            Built within 7 days in the Unity 2D engine and C# language.
+                            Utilizes audio, gameplay mechanics, and environment design to create a
+                            spooky, immersive underwater experience for the player. 
+                        </p>
+                        <a href="https://itch.io/jam/brackeys-10/rate/2236407" target="_blank" class="smallscript">See Itch.io comments</a>
+                    </article>
+                    <article class="projects_article" style="margin-bottom: 0;">
+                        <p class="heading">Spitfire</p>
+                        <a href="https://ingdani.itch.io/spitfire" target="_blank" class="subheading coolLink">https://ingdani.itch.io/spitfire</a>
+                        <p>
+                            Classic biplane shoot-em-up action using only a 64x64 resolution.
+                            Built within 14 days in the Unity 2D engine and C# language.
+                        </p>
+                        <a href="https://itch.io/jam/lowrezjam-2023/rate/2218997" target="_blank" class="smallscript">See Itch.io comments</a>
+                    </article>
+                </div>
             </div>
 
-            <nav>
-                <!-- Flexbox nav -->
-                <div class="header_nav">
-                    
-
-                    <!-- <a href="#projects_section" class="nav_item">PROJECTS</a> -->
-                    <a href="#games_section" class="nav_item">GAMES</a>
-                    <a href="#about_section" class="nav_item">ABOUT</a>
-                    <a href="#contact_section" class="nav_item">CONTACT</a>
-
-                    
+            <div id="about" class="content_box">
+                <div class="content_box_header">
+                    <h1 class="heading">ABOUT</h1>
+                    <p class="subheading">Learn a bit about me.</p>    
                 </div>
-            </nav>
+                <div class="content_box_content">
+                    <p>
+                        As a lifelong maker of things, I advocate for 
+                        creativity, integrity, aesthetics, and identity.
+                    </p>
+                    <p>
+                        Growing up, creating art, games, and media became the primary outlet for my self-expression and emotion.
+                        As a result, you will find touches of my personality, values, and humor in everything I create.
+                    </p>
+                    <p>
+                        I work in a lot of mediums, from web design to poetry. Though they are different,
+                        much of the creative problem solving I learn in the humanities carry over into programming
+                        and design, and vice versa. 
+                    </p>
+                    <p>
+                        In my free time I love to write, work out, read webtoons, listen to music, and go out with good friends. 
+                    </p>
+                </div>
+            </div>
 
-        </div>
-        
-    </header>
+            <div id="contact" class="content_box">
+                <div class="content_box_header">
+                    <h1 class="heading">FIND ME</h1>
+                    <p class="subheading">Links and socials and such and such.</p>    
+                </div>
+                <div class="content_box_content">
+                    <a href="mailto:71danielng@gmail.com" target="_blank"><img class="socials_icon" src="Icons/email-icon.png"/></a>
+                    <a href="https://www.linkedin.com/in/daniel-ng-aa6511321/" target="_blank"><img class="socials_icon" src="Icons/linkedin-app-white-icon.svg"/></a>
+                    <a href="https://github.com/ng-daniel" target="_blank"><img class="socials_icon" src="Icons/github-mark-white.svg"/></a>
+                    <a href="https://ingdani.itch.io/" target="_blank"><img class="socials_icon" src="Icons/itchio-textless-white.svg"/></a>
+                    <!--
+                    <a href="" target="_blank"><img class="socials_icon" src="#"/></a>
+                    -->
+                </div>
+                
+            </div>
+        </main>
 
-    <!-- Brief Introduction -->
-    <div class="main_introduction">
-            
-        <p class="center_paragraph" style="font-size: 20px; font-family: 'Times New Roman', Times, serif;">
-            <em>
-                WHAT IS HAPPENING TO MEEE!?
-            </em>
-        </p>
-        
-        <h1>
-            INDEPENDENT DEVELOPER PORTFOLIO
-        </h1>
-        
-        <p class="center_paragraph" style="font-size: 20px; padding: 15px;">
-            
-            I've always been a maker of things.
-            Inspired by the creativity that exists in the spectacular everyday people I meet,
-            I hope to further my own abilities as a developer, artist, and programmer.
-            
-        </p>
     </div>
+    <div class="root_margins"></div>    
 
-    <div class="spacer layer1"></div>
-
-
-    <main>
-
-        <!-- Projects -->
-        
-        <!--
-        
-        <div class="main_projects" id="projects_section">
-            <h1>Personal Projects</h1>
-            <p>Here's where I would put my personal projects!</p>
-            <br>
-            <p>...IF I HAD ANY.</p>
-        </div>
-        
-        -->
-
-        <!-- Games -->
-        <div class="main_games" id="games_section">
-            <div class="games_text">
-                <div>
-                    <h1 class="section_header_font">
-                        GAME DEVELOPMENT SHOWCASE
-                    </h1>
-                </div>
-                <div class="paragraph_med">
-                    <p>
-                        Ever since I booted up Roblox for the first time on the old family PC, I've wanted to make games.
-                        Now, I do.
-                    </p>
-                    
-                    <p>
-                        I program mainly with C# in the Unity engine, create and animate sprites with Aseprite, and compose music 
-                        with the Reaper DAW and various plugins. This is just a showcase of my best works, you can find every 
-                        game I've built on my Itch.io page.
-                    </p>    
-
-                    <p>
-                        Game development is especially challenging as a solo developer - AKA the game designer, programmer, art director, 
-                        music producer, and marketer, all at once.
-                        Though I'm making progress, I am nowhere near the height of my potential, and
-                        I fully intend to build many more games for years to come.
-                    </p>
-                    
-                </div>    
-            </div>
-            
-
-            <div class="games_showcase slider_container">
-                <div class="game_article_container slides" >
-
-                    <article class="slide" class="game_article" class="slider_slide">
-
-                        <img class="game_image" src="Images/marianne.png">
-
-                        <section class="game_article_title">
-                            <h1>
-                                MARIANNE
-                            </h1>
-                            <h2>
-                                <em>
-                                    DON'T GET TOO LOST DOWN THERE
-                                </em>
-                                
-                            </h2>
-                        </section>
-
-                        <section class="game_article_body">
-                            <p>
-                                A short exploration and light horror game where I took a more poetic, artistic 
-                                perspective on game development, focusing on atmosphere and symbolism 
-                                to tell a story about diving into the depths. 
-                                Built within 7 days for Brackeys Game Jam 2023.2.
-                            </p>
-                        </section>
-
-                    </article>
-
-                    <article class="slide" class="game_article" class="slider_slide">
-
-                        <img class="game_image" src="Images/burnup_action.png">
-
-                        <section class="game_article_title">
-                            <h1>
-                                BURNUP!
-                            </h1>
-                            <h2>
-                                <em>
-                                    ONE BUTTON ASTEROID DEFENSE
-                                </em>
-                            </h2>
-                        </section>
-
-                        <section class="game_article_body">
-                            <p>
-                                A quick and intense astroid defense game designed to only need the spacebar to play. 
-                                Built within 48 hours for Mini Jam 162: Heat, with the creative limitation of only one button performing two actions. 
-                                Ranked top 5 out of 139 total entries. This was my first 48-hour game jam so I didn't expect the high placement, but a win is a win.
-                            </p>
-                        </section>
-
-                    </article>   
-                    
-                    <article class="slide game_article">
-
-                        <img class="game_image" src="Images/spitfire1.png" style="object-fit: contain;">
-
-                        <section class="game_article_title">
-                            <h1>
-                                SPITFIRE
-                            </h1>
-                            <h2>
-                                <em>
-                                    A DOGFIGHTING SHOOTER FRENZY
-                                </em>
-                            </h2>
-                        </section>
-
-                        <section class="game_article_body">
-                            <p>
-                                A classic shoot-em-up action game with dodge rolls, unique enemies, and bossfights. 
-                                Built within 14 days under the creative limitation of a 64x64 resolution screen. 
-                                This was my first go at a true independent creation without needing to follow a tutorial, and I think 
-                                it went very well as far as first times go.
-                            </p>
-                        </section>
-
-                    </article>
-
-                </div>
-                
-                <button class="prev" onclick="prevSlide()"> < </button>
-                <button class="next" onclick="nextSlide()"> > </button>
-
-            </div>
-
-        </div>
-
-        <!-- In-Depth About Me --> 
-        <div class="main_about" id="about_section">
-
-            <article class="about_article">
-
-                <img class="about_image" src="Images/meOnDock2.png" />
-                
-                <section class="about_section">
-                    <h1 class="section_header_font">
-                        ABOUT
-                    </h1>
-                    <div class="paragraph_med">
-                        <p>
-                            I'm currently a CS major at Purdue University. 
-                            So far, I've programmed some small arcade style videogames: right now, I'm learning web development. 
-                            When I'm not working on projects or studying, I like to write poems, hit the gym, 
-                            play games (OG reinhardt main) and go out with friends.
-                        </p>
-                        <p>
-                            I found my love for creating early on, through building with legos and writing short stories. 
-                            After the pandemic left me feeling lost and unsure, finding avenues to express myself and figure out 
-                            my identity helped me to heal. As a result, you will find touches of my personality, values, 
-                            and humor in everything I create. For whatever reason brought you here, thanks for stopping by!
-                        </p>        
-                    </div>
-                    
-                </section>
-                
-            </article>
-            
-            <article class="about_article" style="flex-wrap: wrap-reverse;">
-                
-                <section class="about_section">
-                    <h1 class="section_header_font">
-                        EXPERIENCE
-                    </h1>
-                    <div class="paragraph_med">
-                        <p>
-                            
-                            
-                        </p>
-                        <ul>
-                            <li>1 year of experience in Unity, C#, and Aseprite </li>
-                            <li>Published multiple small titles to my Itch.io page</li>
-                            <li>Competed in several online game jams, including a top 5 ranking out of 139 total entries.</li>
-                        </ul>
-                        <ul>
-                            <li>Unity</li>
-                            <li>C#</li>
-                            <li>Aseprite</li>
-                            <li>HTML5</li>
-                            <li>CSS</li>
-                        </ul>  
-                    </div>
-                      
-                </section>
-
-                <img class="about_image" src="Images/unityWorkflow.png" />
-                
-            </article>
-           
-         </div>
-
-    </main>
-
-    <div class="spacer layer2"></div>
-
-    <footer id="contact_section">
-        <h1>LINKS</h1>
-
-        <!-- Links & Contact -->
-        <div class="footer_links"> 
-            <a href="https://github.com/ng-daniel" target="_blank">
-                <img src="Icons/github-mark-white.svg">
-            </a>
-            <a href="https://developng.itch.io">
-                <img src="Icons/itchio-textless-white.svg" target="_blank">
-            </a>
-            <a href="https://www.linkedin.com/in/daniel-ng-aa6511321/" target="_blank">
-                <img src="Icons/linkedin-app-white-icon.svg">
-            </a>
-        </div>
-    </footer>
-
-    <script src="index.js"></script>
-
+    
 </body>
 </html>

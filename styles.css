@@ -1,0 +1,225 @@
+@font-face {
+    font-family: "MaisonNeue";
+    src: url("Fonts/FontsFree-Net-Maison-Neue-Mono.ttf");
+}
+@font-face {
+    font-family: "Anaheim";
+    src: url("Fonts/Anaheim-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: "IA";
+    src: url("Fonts/iAWriterMonoV.ttf");
+}
+
+:root{
+    --font-xxs: .25rem;
+    --font-xs: .5rem;
+    --font-s: .75rem;
+    --font-m: 1rem;
+    --font-l: 1.25rem;
+    --font-xl: 1.75rem;
+    --font-xxl: 2.5rem;
+}
+:root{
+    --min-text-width:100px;
+    --max-text-width:475px;
+    --max-desc-width:600px;
+}
+:root{
+    --margin-xxs: 0.5rem;
+    --margin-xs: 1rem;
+    --margin-s: 1.25rem;
+    --margin-m: 1.75rem;
+    --margin-l: 2.5rem;
+    --margin-xl: 5rem;
+    --margin-xxl: 10rem;
+}
+:root{
+    --char-spacing-s: -0.125rem;
+    --char-spacing-m: 0rem;
+    --char-spacing-l: 0.125rem;
+}
+:root{
+    --grey-dark: #1e1e1e;
+    --grey-darker: #181818;
+    --white: #ffffff;
+    --light-gray: #aaaaaa;
+    --blue-blue: #0000ff;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "IA";
+    background-color: var(--grey-dark);
+    color: white;
+    margin: 0;
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.root_margins{
+    flex: 1 0 0px;
+    min-width: 0px;
+}
+.container{
+    flex: 0 1 100%;
+    padding: var(--margin-m);
+    margin: auto;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 0;
+        margin-bottom: var(--margin-xl);
+    max-width:50rem;
+}
+.main_content{
+    display:flex;
+    flex-direction: column;
+
+    justify-content: start;
+}
+
+
+.header_box{
+    display:flex;
+    flex-direction: row;
+    margin: auto;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 0;
+        margin-bottom: var(--margin-l);
+}
+.nav_bar{
+    padding: var(--margin-m);
+}
+.nav_list{
+    display: flex;
+    flex-direction: column;
+}
+.nav_bar a{
+    text-decoration: none;
+    color: var(--white);
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+
+    transition-property: color;
+    transition-duration: 0.3s;
+}
+.nav_bar a:hover{
+    color: var(--light-gray);
+}
+
+
+
+.content_box{
+    
+    display: flex;
+    flex-direction: row;
+    gap: var(--margin-xs);
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    margin: auto;
+        margin-left: 0;
+        margin-right:0;
+        margin-top: var(--margin-s);
+        margin-bottom: var(--margin-l);
+    align-self: self-start;
+
+    align-items:baseline;
+}
+#tools{
+    align-items: center;
+}
+#contact{
+    align-items: start;
+}
+
+.content_box_header{
+    max-width: 8rem;
+}
+.content_box_content{
+    flex:1;
+    min-width: var(--min-text-width);
+}
+
+.projects_article{
+    margin:auto;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 0;
+        margin-bottom: var(--margin-l);
+}
+.projects_article a{
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: 0.3s;
+}
+.projects_article a:hover{
+    color: var(--white);
+}
+
+
+.tools_icon{
+    width: var(--margin-l);
+    height: var(--margin-l);
+    object-fit: contain;
+    margin: 0;
+}
+.socials_icon{
+    width: var(--margin-m);
+    height: var(--margin-m);
+
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+.socials_icon:hover{
+    transform: translateY(-5px);
+}
+
+
+.title{
+    font-size: var(--font-xxl);
+    letter-spacing: var(--char-spacing-s);
+}
+.subtitle{
+    font-size:var(--font-l);
+    letter-spacing: var(--char-spacing-l);
+}
+.description{
+    font-size: var(--font-s);
+    max-width: var(--max-desc-width);
+}
+
+.heading{
+    margin-bottom: var(--margin-xxs);
+    font-size: var(--font-m);
+    font-family: "MaisonNeue";
+    color: var(--white);
+}
+.subheading{
+    font-size: var(--font-s);
+    font-family: "MaisonNeue";
+    color: var(--light-gray);
+}
+.smallscript{
+    font-size: var(--font-s);
+    color: var(--light-gray);
+}
+
+.coolLink{
+    border-radius: 0.25rem;
+    background-color: var(--grey-darker);
+    padding: 8px;
+
+}
+
+p{
+    font-size: var(--font-s);
+    letter-spacing: var(--char-spacing-m);
+    max-width: var(--max-text-width);
+}
