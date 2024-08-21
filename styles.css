@@ -21,7 +21,7 @@
     --font-xxl: 2.5rem;
 }
 :root{
-    --min-text-width:100px;
+    --min-text-width:300px;
     --max-text-width:475px;
     --max-desc-width:600px;
 }
@@ -90,9 +90,12 @@ body{
         margin-right: 0;
         margin-top: 0;
         margin-bottom: var(--margin-l);
+
+    flex-wrap: wrap-reverse;
 }
 .nav_bar{
     padding: var(--margin-m);
+    flex: 1;
 }
 .nav_list{
     display: flex;
@@ -125,7 +128,7 @@ body{
     margin: auto;
         margin-left: 0;
         margin-right:0;
-        margin-top: var(--margin-s);
+        margin-top: var(--margin-l);
         margin-bottom: var(--margin-l);
     align-self: self-start;
 
