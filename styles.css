@@ -105,8 +105,6 @@ body{
     text-decoration: none;
     color: var(--white);
     overflow: hidden;
-    position: relative;
-    display: inline-block;
 
     transition-property: color;
     transition-duration: 0.3s;
@@ -158,6 +156,7 @@ body{
 }
 .projects_article a{
     text-decoration: none;
+    color: var(--light-gray);
     transition-property: color;
     transition-duration: 0.3s;
 }
