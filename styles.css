@@ -93,6 +93,9 @@ body{
 
     flex-wrap: wrap-reverse;
 }
+.about_header{
+    flex: 3;
+}
 .nav_bar{
     padding: var(--margin-m);
     flex: 1;
@@ -102,6 +105,8 @@ body{
     flex-direction: column;
 }
 .nav_bar a{
+    margin-right: var(--margin-s);
+    
     text-decoration: none;
     color: var(--white);
     overflow: hidden;
@@ -201,7 +206,7 @@ body{
     margin-bottom: var(--margin-xxs);
     font-size: var(--font-m);
     font-family: "MaisonNeue";
-    color: var(--white);
+    
 }
 .subheading{
     font-size: var(--font-s);
