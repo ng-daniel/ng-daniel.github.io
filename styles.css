@@ -161,12 +161,23 @@ body{
 }
 .projects_article a{
     text-decoration: none;
+}
+
+.grayToWhite{
     color: var(--light-gray);
     transition-property: color;
     transition-duration: 0.3s;
 }
-.projects_article a:hover{
+.grayToWhite:hover{
     color: var(--white);
+}
+.whiteToGray{
+    color: var(--white);
+    transition-property: color;
+    transition-duration: 0.3s;
+}
+.whiteToGray:hover{
+    color: var(--light-gray);
 }
 
 
