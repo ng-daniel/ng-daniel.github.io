@@ -14,7 +14,7 @@
 :root{
     --font-xxs: .25rem;
     --font-xs: .5rem;
-    --font-s: .75rem;
+    --font-s: .8rem;
     --font-m: 1rem;
     --font-l: 1.25rem;
     --font-xl: 1.75rem;
@@ -45,6 +45,9 @@
     --white: #ffffff;
     --light-gray: #aaaaaa;
     --blue-blue: #0000ff;
+    --light-beige: #F3EDC8;
+    --dark-beige: #EAD196;
+    
 }
 html{
     scroll-behavior: smooth;
@@ -52,6 +55,10 @@ html{
 body{
     font-family: "IA";
     background-color: var(--grey-dark);
+    background-image: url("Images/IMG_3892.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: white;
     margin: 0;
 
@@ -70,8 +77,8 @@ body{
     margin: auto;
         margin-left: 0;
         margin-right: 0;
-        margin-top: 0;
-        margin-bottom: var(--margin-xl);
+        margin-top: var(--margin-xxl);
+        margin-bottom: var(--margin-xxl);
     max-width:50rem;
 }
 .main_content{
@@ -145,10 +152,11 @@ body{
 }
 
 .content_box_header{
-    max-width: 8rem;
+    min-width: 8rem;
+    flex:1;
 }
 .content_box_content{
-    flex:1;
+    flex:5;
     min-width: var(--min-text-width);
 }
 
@@ -231,8 +239,11 @@ body{
 
 .coolLink{
     border-radius: 0.25rem;
-    background-color: var(--grey-darker);
+    /*background-color: var(--grey-darker);*/
+    background-color: rgb(45,45,55,0.25);
+
     padding: 8px;
+    background-blend-mode: darken;
 
 }
 
