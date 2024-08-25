@@ -57,6 +57,11 @@ body{
     background-color: rgb(10,10,20);
     background-image: url("Images/IMG_3892.jpg");
     background-size: cover;
+
+    @media (max-width: 600px){
+        background-attachment: scroll;
+    }
+
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: white;
