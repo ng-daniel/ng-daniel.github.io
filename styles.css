@@ -54,7 +54,7 @@ html{
 }
 body{
     font-family: "IA";
-    background-color: var(--grey-dark);
+    background-color: rgb(10,10,20);
     background-image: url("Images/IMG_3892.jpg");
     background-size: cover;
     background-repeat: no-repeat;
