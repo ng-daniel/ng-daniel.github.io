@@ -84,7 +84,7 @@ body{
     margin: auto;
         margin-left: 0;
         margin-right: 0;
-        margin-top: var(--margin-xxl);
+        margin-top: var(--margin-xl);
         margin-bottom: var(--margin-xxl);
     max-width:50rem;
 }
