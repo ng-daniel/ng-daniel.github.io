@@ -59,12 +59,14 @@ body{
     background-size: cover;
     
 
-    @media (max-width: 600px){
+    @media (max-width: 2000PX){
         background-repeat: repeat;
+        background-attachment: scroll;
+        background-size: contain;
     }
 
     background-repeat: repeat;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-position-x: center;
     color: white;
     margin: 0;
