@@ -60,9 +60,7 @@ body{
     
 
     @media (max-width: 600px){
-        background-repeat: repeat;
         background-attachment: scroll;
-        background-size: cover;
     }
 
     background-repeat: repeat;
