@@ -62,7 +62,7 @@ body{
     @media (max-width: 2000PX){
         background-repeat: repeat;
         background-attachment: scroll;
-        background-size: contain;
+        background-size: cover;
     }
 
     background-repeat: repeat;
