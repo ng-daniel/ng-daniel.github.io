@@ -61,6 +61,7 @@ body{
 
     @media (max-width: 600px){
         background-attachment: scroll;
+        background-size: 100% 50%;
     }
 
     background-repeat: repeat;
