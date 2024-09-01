@@ -87,7 +87,7 @@ body{
         margin-right: 0;
         margin-top: var(--margin-xl);
         margin-bottom: var(--margin-xxl);
-    max-width:50rem;
+    max-width:42rem;
 }
 .main_content{
     display:flex;
@@ -225,7 +225,7 @@ body{
     letter-spacing: var(--char-spacing-l);
 }
 .description{
-    font-size: var(--font-s);
+    font-size: var(--font-m);
     max-width: var(--max-desc-width);
 }
 
